@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BabyFeed:Human Milk Bank Management System</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="User.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="BabyFeed.png" alt="BabyFeed Logo" class="logo-img">
+        </div>
+        <ul class="nav-links">
+            <li><a href="User.html">Home</a></li>
+            <li><a href="Donate.html">Donate Milk</a></li>
+            <li><a href="Request.html">Request Milk</a></li>
+            <li><a href="BookAppointment.html">Book Appointment</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><a href="BookAppointment.html">Doctor</a></li>
+            <li><a href="Contact.html">Milk Bank</a></li>
+        </ul>
+        <button class="login-btn">Login</button>
+    </nav>
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Login</h2>
+            <form action="LoginServlet" method="post">
+                <label for="username">Email-Id</label>
+                <input type="text" id="username" name="t1" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="t2" required>
+                <button type="submit">Login</button>
+                <p>Don't have an account? <a href="#" id="register-link">Register here</a></p>
+            </form>
+        </div>
+    </div>
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Register</h2>
+            <form action="RegisterServlet" method="post">
+                <label for="reg-username">User Name</label>
+                <input type="text" id="reg-username" name="t1" required>
+                <label for="reg-email">Email</label>
+                <input type="email" id="reg-email" name="t2" required>
+                <label for="reg-password">Password</label>
+                <input type="password" id="reg-password" name="t3" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+    <div class="main">
+        <h1>BabyFeed<br>Your Online Human Milk Bank</h1>
+        <p>Ensuring optimum nutrition for your little ones when they are not able to do it on their own.</p>
+        <a href="Donate.html" class="appointment-button">Donate Milk </a>
+    </div>
+    <div class="enquire-now">
+        <a href="Donate.html">Donate Now</a>
+    </div>
+    
+<div class="main1">
+<nav class="navbar-1">
+    <ul class="nav-links-1">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">FAQ'S</a></li>
+        <li><a href="#">Meet Donours</a></li>
+        <li><a href="Contact.html">Contact Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        
+    </ul>
+    <div class="nav-icons-1">
+        <button class="bookapp-btn">Book Appointment</button>
+    </div>
+</nav>
+<div class="content-1">
+    <h1>Human Milk Bank</h1>
+    <p>
+        A human milk bank, also known as a breast milk bank or  lactarium, is a service where donated breast milk from nursing mothers is collected, screened, processed, pasteurized, and then given to babies who need it, based on a doctor's prescription.
+         Breast milk is the best nutrition for newborns for at least the first six months.For mothers who can't breastfeed or produce enough milk, pasteurized donor breast milk can be a good alternative.
+        <br> <br>
+         However, using breast milk from another woman that hasn't been pasteurized and sharing breast milk informally can be risky, as it may
+          carry bacteria and viruses that could harm the baby. If pasteurized donor milk isn't available, commercial formula is the next best option.For mothers who can't breastfeed or produce enough milk, pasteurized donor breast milk can be a good alternative. 
+          However, using breast milk from another woman that hasn't been pasteurized and sharing breast milk informally can be risky, as it may carry bacteria and viruses that could harm the baby. If pasteurized donor milk isn't available, commercial formula is the next best option. 
+<br><br>
+Human milk banks can help mothers who can't provide their own breast milk, especially if the baby is at risk of diseases due to the mother's health conditions, or if the baby is born with a very low birth weight and needs special care in the hospital for a long time, and the mother can't be there to breastfeed.
+    </p>
+      </div>
+</div>
+<div class="container-2">
+<div class="zigzag">
+    <img src="img3.jpg" alt="Image 1">
+    <div class="description">
+        <h3>Why Breast Milk Is Important For Babies?</h3>
+        <p>Breastfeeding is crucial for babies because it provides them with the ideal nutrition they need for healthy growth and development. Breast milk is uniquely tailored to a baby’s needs, containing the perfect balance of nutrients such as proteins, fats, vitamins, and minerals. These nutrients are essential for building strong bones, muscles, and a healthy brain.
+         <br><br>
+        One of the key benefits of breastfeeding is that it strengthens a baby’s immune system. Breast milk is rich in antibodies that help protect babies from infections and diseases, such as colds, ear infections, and digestive issues. Babies who are breastfed tend to get sick less often and recover more quickly when they do.
+         <br><br>  
+        Breast milk is also gentle on a baby’s developing digestive system. It is easier to digest than formula, which can reduce the risk of stomach problems like constipation, gas, and colic. Additionally, the composition of breast milk changes over time to meet the growing needs of the baby, providing exactly what the baby needs at each stage of development.</p>
+    </div>
+</div>
+
+<div class="zigzag">
+    <img src="img4.jpg" alt="Image 2">
+    <div class="description">
+        <h3>Why Milk Donation Is Importatnt?</h3>
+        <p>Breast milk donation is important because it provides essential nutrition to newborns, especially those who are born early, too small, or sick. Breast milk has all the right nutrients, antibodies, and enzymes that help babies grow strong, develop well, and fight off infections.
+            <br> <br>
+            For babies in neonatal intensive care units (NICUs) or whose mothers can’t produce enough milk, donated breast milk is often the safest and healthiest option instead of formula.
+         <br><br>
+            By donating breast milk, you also help mothers who can’t breastfeed due to health issues or complications after giving birth. This ensures that their babies still get the best possible nutrition.
+            <br><br>
+             Additionally, breast milk donation can help lower the risk of infant deaths and improve the long-term health of babies who need extra care. When you donate to milk banks, you play an important role in giving these babies a better start in life and making a positive impact on their health.
+            </p>
+            <br><br>
+        <h3>Who is Eligible for Milk Donation?</h3>
+        <p>Eligibility for breast milk donation generally includes healthy mothers who produce more milk than their baby needs. Donors should be non-smokers, free from certain medications, and not using drugs or alcohol. They must have a healthy lifestyle and undergo screening to ensure they don't have infections like HIV, hepatitis, or other illnesses that could be passed through breast milk.
+            <br><br>
+             Some milk banks may also require donors to follow specific dietary guidelines and avoid consuming large amounts of caffeine or herbal supplements. The screening process helps ensure the safety and quality of the donated breast milk for vulnerable infants.</p>
+    </div>
+</div>
+</div>
+<div class="faq-container">
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)">
+        How is donated breast milk processed and screened?
+    </div>
+    <div class="faq-answer">
+        <p>
+            At Babyfeed we follow a rigorous protocol when it comes to the processing and screening of donor milk, and adhere to stringent quality and safety benchmarks. The milk is carefully screened, pasteurized and stored to feed the babies in times of emergency.
+        </p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)">
+        Who can donate breast milk to a human milk bank?
+    </div>
+    <div class="faq-answer">
+        <p>
+            Eligible donors for a human milk bank are healthy, lactating mothers who have surplus breast milk and meet specific health and lifestyle criteria, including being non-smokers and free from certain medications or infections. They are typically screened through interviews and blood tests.
+        </p>
+    </div>
+</div>
+
+<div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)">
+        Is donor milk as beneficial as a mother's own milk?
+    </div>
+    <div class="faq-answer">
+        <p>
+            Donor milk is highly beneficial and provides essential nutrients and antibodies, but a mother's own milk is generally preferred because it is tailored to her baby's specific needs. However, donor milk is the next best option for infants when a mother's milk is unavailable.
+        </p>
+    </div>
+</div>
+<div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)">
+        What conditions can prevent a mother from breastfeeding her baby?
+    </div>
+    <div class="faq-answer">
+        <p>
+            Conditions that can prevent a mother from breastfeeding include certain infections (like HIV), some medications, and health issues such as untreated tuberculosis or undergoing chemotherapy. Physical challenges like insufficient milk supply or certain breast surgeries can also be factors.
+        </p>
+    </div>
+</div><div class="faq-item">
+    <div class="faq-question" onclick="toggleAnswer(this)">
+        Can a woman be a milk donor if she smokes or drinks?
+    </div>
+    <div class="faq-answer">
+        <p>
+            No, a woman can not be a milk donor if she drinks or smokes.
+        </p>
+    </div>
+</div>
+</div>
+<div class="questions-container">
+<div class="questions-content">
+    <h2>Still have questions?</h2>
+    <p>It is good to be curious when it comes to your health, but, it is equally important to put your curiosity to rest by seeking expert opinion. Have more questions related to your health?</p>
+</div>
+<div class="contact-us">
+    <button onclick="contactUs()">Contact Us</button>
+</div>
+</div>
+<div class="cta-section">
+<p>Join us in making a difference today.</p>
+<div class="cta-links">
+    <a href="Donate.html" class="cta-link">DONATE MILK</a>| 
+    <a href="#" class="cta-link">REQUEST MILK</a>|
+    <a href="Contact.html" class="cta-link">CONTACT US</a>|
+    <a href="#" class="cta-link">MEET DONOURS</a>
+</div>
+</div>
+<footer class="footer">
+    <div class="footer-section logo-section">
+        <img src="BabyFeed.png" alt="BabyFeed Logo">
+        <p>A human milk bank is a service that collects, screens, processes, and distributes donated human breast milk to infants in need, particularly premature or sick babies whose mothers may not be able to provide sufficient milk.</p>
+    </div>
+
+    <div class="footer-section links-section">
+        <a href="aboutus.html">About Us</a>
+        <a href="requestmilk.html">Request Milk</a>
+        <a href="donatemilk.html">Donate Milk</a>
+        <a href="meetdonors.html">Meet Donors</a>
+        <a href="bookappointment.html">Book Appointment</a>
+        <a href="faqs.html">FAQ'S</a>
+        <a href="contactus.html">Contact Us</a>
+    </div>
+
+    <div class="footer-section contact-section">
+        <h3>CONTACT TO BABYFEED</h3>
+        <p>Office hours are Monday – Friday, 8:00 am to 4:30 pm</p>
+        <p>Toll Free: (877)-375-6645</p>
+        <p>Phone: (408)-998-4550</p>
+        <p>Fax: (408)-297-9208</p>
+        <h3>VISIT THE MILK BANK</h3>
+        <p>Babyfeed,Near Modern College of Arts, Science and Commerce, Ganeshkhind, Pune</p>
+        <div class="social-icons">
+            <a href="#"><img src="instagram (1).png" alt="Instagram"></a>
+            <a href="#"><img src="twitter.png" alt="X"></a>
+            <a href="#"><img src="youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="whatsapp.png" alt="WhatsApp"></a>
+        </div>
+        </div>
+    <div class="footer-section maps-0ection">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.7268224759096!2d73.82490467423789!3d18.54124296854435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf690e8d461b%3A0x1ec0d79ccf15804d!2sModern%20Law%20College!5e0!3m2!1sen!2sin!4v1709137468958!5m2!1sen!2sin" width="300" height="240" style="border:0;"></iframe>
+            </div>
+</footer>
+    <script src="User.js"></script>
+</body>
+</html>
